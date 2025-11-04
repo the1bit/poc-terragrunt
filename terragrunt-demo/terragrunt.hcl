@@ -16,7 +16,7 @@ generate "provider" {
 
     provider "aws" {
       profile = "${get_env("AWS_PROFILE", "default")}"
-      region  = "${get_env("AWS_REGION", "eu-central-1")}"
+      region  = "${get_env("AWS_REGION", "eu-north-1")}"
     }
   EOF
 }
