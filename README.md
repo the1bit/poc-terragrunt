@@ -1,1 +1,1 @@
-# poc-terragrunt
+# Terragrunt POC
